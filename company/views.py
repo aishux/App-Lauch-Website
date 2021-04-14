@@ -6,8 +6,8 @@ from email.message import EmailMessage
 import smtplib
 
 
-EMAIL_ADDRESS = 'agcnathani@gmail.com'
-EMAIL_PASSWORD = 'futureengineer07'
+EMAIL_ADDRESS = ''
+EMAIL_PASSWORD = ''
 
 def index(request):
     allPosts = Post.objects.all()[:3]
